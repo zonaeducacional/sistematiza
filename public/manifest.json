@@ -1,0 +1,28 @@
+{
+  "name": "Sistematiza - Gestão Intelectual",
+  "short_name": "Sistematiza",
+  "description": "Ferramenta Local-First de gestão de conhecimento para pesquisadores e acadêmicos",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf9fb",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3593/3593971.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3593/3593971.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity", "utilities"],
+  "screenshots": [],
+  "lang": "pt-BR",
+  "dir": "ltr"
+}
