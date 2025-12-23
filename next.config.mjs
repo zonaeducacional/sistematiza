@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: 'export', // Isso avisa ao Next.js para gerar arquivos HTML estáticos
   images: {
-    unoptimized: true,
+    unoptimized: true, // Necessário para o GitHub Pages
   },
- 
-}
+  // Substitua 'sistematiza' pelo nome exato do seu repositório no GitHub
+  basePath: '/sistematiza', 
+  assetPrefix: '/sistematiza',
+};
 
-export default nextConfig
+export default nextConfig;
