@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Isso avisa ao Next.js para gerar arquivos HTML estáticos
+  output: 'export',
   images: {
-    unoptimized: true, // Necessário para o GitHub Pages
+    unoptimized: true,
   },
-  // Substitua 'sistematiza' pelo nome exato do seu repositório no GitHub
   basePath: '/sistematiza', 
   assetPrefix: '/sistematiza',
+  trailingSlash: true, // Adicione esta linha para facilitar a navegação no GitHub Pages
 };
 
 export default nextConfig;
